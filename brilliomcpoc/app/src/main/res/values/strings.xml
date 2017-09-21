@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MasterPass</string>
+    <string name="fingerprint_description">Confirm fingerprint to continue</string>
+    <string name="fingerprint_not_recognized">Fingerprint not recognized</string>
+    <string name="fingerprint_not_recognized_try">Please try again</string>
+    <string name="fingerprint_success">Fingerprint recognized</string>
+    <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
+    <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
+    <string name="use_fingerprint_to_authenticate_key">use_fingerprint_to_authenticate_key</string>
+    <string name="alert_ok">OK</string>
+    <string name="alert_yes">YES</string>
+    <string name="alert_no">NO</string>
+    <string name="cancel">Cancel</string>
+</resources>

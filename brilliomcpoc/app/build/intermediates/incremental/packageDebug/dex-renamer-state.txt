@@ -1,0 +1,7 @@
+#Thu Sep 21 10:00:48 EDT 2017
+base.0=C\:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_897f1aad229aac39576e4a537cf1d66860cbdff3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f7c2ba08a912336a8242429b9d1da00a8db07ca8\\classes.dex
+base.1=C\:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f7c2ba08a912336a8242429b9d1da00a8db07ca8
+file.0=C\:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_897f1aad229aac39576e4a537cf1d66860cbdff3\\classes.dex

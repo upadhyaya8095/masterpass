@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7994d79dbfbe0666d1ecc7cb67c09fdd0a4e983f">
+        <dex dex="C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f7c2ba08a912336a8242429b9d1da00a8db07ca8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_897f1aad229aac39576e4a537cf1d66860cbdff3\classes.dex" />
+    </item>
+
+</items>

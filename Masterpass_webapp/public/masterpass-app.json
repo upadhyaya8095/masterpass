@@ -1,0 +1,11 @@
+{
+  "related_applications": [{
+    "platform": "play",
+    "id": "com.brillio.brilliomcpoc",
+    "min_version": "1",
+	"fingerprints": [{
+      "type":"sha256_cert",
+      "value":"6B:84:D4:FB:CA:C4:F4:6A:03:9D:7D:04:F1:24:06:38:F3:EC:2B:C0:5C:6A:C8:DF:7F:4A:1A:48:28:D1:72:41"
+    }]
+  }]
+}
