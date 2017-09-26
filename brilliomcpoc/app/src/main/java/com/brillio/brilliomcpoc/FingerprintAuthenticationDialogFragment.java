@@ -72,8 +72,7 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
         mFingerprintContent = v.findViewById(R.id.fingerprint_container);
         mFingerprintUiHelper = new FingerprintUiHelper(
                 mActivity.getSystemService(FingerprintManager.class),
-                (ImageView) v.findViewById(R.id.fingerprint_icon),
-                (TextView) v.findViewById(R.id.fingerprint_status), (TextView) v.findViewById(R.id.fingerprint_hint), mCancelButton, this);
+               mActivity);
         updateStage();
 
         // If fingerprint authentication is not available, switch immediately to the backup
@@ -152,15 +151,15 @@ public class FingerprintAuthenticationDialogFragment extends DialogFragment
     }
 
     @Override
-    public void onError() {
-        //mActivity.onError("Getting Error");
+    public void onError(String message) {
+
     }
 
     @Override
-    public void cancelDialog() {
-        //mActivity.onError("Getting Error");
-        //dismiss();
+    public void fingerPrintNotEnrollerd() {
+
     }
+
 
     /**
      * Enumeration to indicate which authentication method the user is trying to authenticate with.

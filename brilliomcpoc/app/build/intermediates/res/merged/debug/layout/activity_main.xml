@@ -9,8 +9,9 @@
     <FrameLayout
         android:id="@+id/bottom_sheet"
         app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
-        app:behavior_peekHeight="360dp"
-        app:behavior_hideable="true"
+        app:behavior_peekHeight="490dp"
+        android:minHeight="200dp"
+        app:behavior_hideable="false"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/white">
@@ -19,37 +20,189 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <TextView
-                android:id="@+id/my_title"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="MasterPass"
-                android:textColor="@color/black"
-                android:textAlignment="center"/>
-
-            <ImageView
-                android:layout_width="100dp"
                 android:layout_height="50dp"
-                android:id="@+id/logoimage"
-                android:layout_below="@+id/my_title"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/mastercard_logo_design"/>
+                android:orientation="horizontal"
+                android:id="@+id/firstRowHeader"
+                android:background="@color/black"
+                android:weightSum="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bitmap"
+                    android:layout_gravity="center"
+                    android:id="@+id/hexagonImage"/>
+
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#808080"
+                    android:layout_margin="10dp"/>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:id="@+id/mastercardLogo"
+                    android:src="@drawable/glyph"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
 
             <TextView
-                android:id="@+id/json_content"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:layout_below="@id/logoimage"/>
-
-            <Button
-                android:id="@+id/back_to_browser"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Continue"
-                android:layout_below="@+id/json_content"
-                android:layout_centerHorizontal="true" />
+                android:layout_below="@+id/firstRowHeader"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textColor="#000000"
+                android:layout_marginLeft="15dp"
+                android:text="PAY TO"
+                android:id="@+id/paytoText"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/paytoText"
+                android:layout_marginTop="3dp"
+                android:textSize="16dp"
+                android:hint="ABCDEF"
+                android:textColor="#000000"
+                android:id="@+id/airbnbText"
+                android:layout_marginLeft="15dp"
+                android:text=""/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:id="@+id/paywithText"
+                android:text="PAY WITH"
+                android:layout_below="@+id/airbnbText"
+                android:layout_alignStart="@+id/airbnbText" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/paywithText"
+                android:layout_marginTop="5dp"
+                android:id="@+id/cardRow"
+                android:weightSum="1"
+                android:layout_marginBottom="25dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight=".80">
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="42dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/mastercard"
+                    android:id="@+id/cardImage"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:id="@+id/cardnumber"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:text="Mastercard....1234"/>
+            </LinearLayout>
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/arrowRight"
+                    android:layout_weight=".20"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/arrow"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/cardRow"
+                android:background="#F8F8F8"
+                >
+
+                <TextView
+                    android:id="@+id/json_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:layout_marginTop="17dp"
+                   />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:textColor="#A9A9A9"
+                    android:layout_below="@+id/json_content"
+                    android:id="@+id/transactionText"
+                    android:layout_marginTop="13dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Authorize transaction with your fingerprint"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#00BFFF"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="17dp"
+                    android:id="@+id/registerFPText"
+                    android:layout_below="@+id/transactionText"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="3dp"/>
+
+
+                <TextView
+                    android:id="@+id/fingerprint_status"
+                    style="@android:style/TextAppearance.Material.Body1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/fingerprint_icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:minWidth="700dp"/>
+
+                <ImageView
+                    android:id="@+id/fingerprint_icon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/icon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_below="@+id/transactionText"/>
+
+            </RelativeLayout>
+
+
+
 
         </RelativeLayout>
     </FrameLayout>

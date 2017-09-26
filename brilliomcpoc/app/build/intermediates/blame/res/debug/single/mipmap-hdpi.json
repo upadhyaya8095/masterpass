@@ -8,6 +8,10 @@
         "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round1.png"
     },
     {
+        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\launch_icon.png",
+        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\mipmap-hdpi\\launch_icon.png"
+    },
+    {
         "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
         "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }

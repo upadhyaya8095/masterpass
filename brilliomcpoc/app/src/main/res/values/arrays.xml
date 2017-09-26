@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="method_names">
-        <item>https://mcpoc-app.herokuapp.com</item>
+        <item>https://mcpoc-app.herokuapp.com/pay</item>
     </string-array>
 </resources>

@@ -1,20 +1,30 @@
 package com.brillio.brilliomcpoc;
 
+import android.Manifest;
 import android.app.KeyguardManager;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
+import android.graphics.Paint;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Build;
+import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
+import android.provider.Settings;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyPermanentlyInvalidatedException;
 import android.security.keystore.KeyProperties;
 import android.support.annotation.RequiresApi;
+import android.support.design.widget.BottomSheetBehavior;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -28,16 +38,19 @@ import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
 import java.security.UnrecoverableKeyException;
 import java.security.cert.CertificateException;
+import java.util.Calendar;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
 import javax.crypto.NoSuchPaddingException;
 import javax.crypto.SecretKey;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements FingerprintUiHelper.Callback {
 
-    private static final String DEFAULT_KEY_NAME = "socalgas_key";
+   // private static final String DEFAULT_KEY_NAME = "socalgas_key";
+    private static final String DEFAULT_KEY_NAME = "mc_key";
     private static final String DIALOG_FRAGMENT_TAG = "scgFragment";
+    private static final long ERROR_FP = 30000;
     android.app.FragmentManager fm = getFragmentManager();
     private KeyguardManager keyguardManager;
     private FingerprintManager fingerprintManager;
@@ -45,41 +58,72 @@ public class MainActivity extends AppCompatActivity {
     private KeyGenerator mKeyGenerator;
     private Cipher defaultCipher;
     private SharedPreferences mSharedPreferences;
+    private FingerprintUiHelper mFingerprintUiHelper;
+    TextView messageText;
+    TextView merchantText;
+    TextView registerText;
+    private static final long ERROR_TIMEOUT_MILLIS = 2000;
 
+
+    ImageView mFingerPrintIcon;
+    private MPreference mPreference;
+    private View mBottomSheetView;
+    private BottomSheetBehavior mBottomSheetBehavior;
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            keyguardManager = getSystemService(KeyguardManager.class);
-            fingerprintManager = getSystemService(FingerprintManager.class);
-            initFingerPrint();
-        }
-
-        findViewById(R.id.back_to_browser).setOnClickListener(new View.OnClickListener() {
-            @RequiresApi(api = Build.VERSION_CODES.M)
+        mFingerPrintIcon = (ImageView) findViewById(R.id.fingerprint_icon);
+        mBottomSheetView =  findViewById(R.id.bottom_sheet);
+        mBottomSheetBehavior = BottomSheetBehavior.from(mBottomSheetView);
+        /*mBottomSheetBehavior.setHideable(false);
+        mBottomSheetBehavior.setPeekHeight(490);
+        mBottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
             @Override
-            public void onClick(View view) {
+            public void onStateChanged(View bottomSheet, int newState) {
+                if (newState == BottomSheetBehavior.STATE_EXPANDED) {
 
-                if (initCipher(defaultCipher)) {
-                    // Show the fingerprint dialog. The user has the option to use the fingerprint with
-                    // crypto, or you can fall back to using a server-side verified password.
-                    FingerprintAuthenticationDialogFragment fragment
-                            = new FingerprintAuthenticationDialogFragment();
-                    fragment.setCryptoObject(new FingerprintManager.CryptoObject(defaultCipher));
+                }
+                else if (newState == BottomSheetBehavior.STATE_HIDDEN) {
+                    mBottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
+                }
+                else if (newState == BottomSheetBehavior.STATE_COLLAPSED) {
 
-                    boolean useFingerprintPreference = mSharedPreferences
-                            .getBoolean(getString(R.string.use_fingerprint_to_authenticate_key),
-                                    true);
-                    if (useFingerprintPreference) {
-                        fragment.setStage(
-                                FingerprintAuthenticationDialogFragment.Stage.FINGERPRINT);
-                    }
-                    fragment.show(getFragmentManager(), DIALOG_FRAGMENT_TAG);
                 }
             }
-        });
+
+            @Override
+            public void onSlide(View bottomSheet, float slideOffset) {
+            }
+        });*/
+        messageText = (TextView) findViewById(R.id.fingerprint_status);
+        merchantText = (TextView) findViewById(R.id.airbnbText);
+        registerText = (TextView)findViewById(R.id.registerFPText);
+        mPreference = new MPreference(getApplicationContext());
+        if(mPreference.getTimeStamp()==0) {
+            activeFingerPrint();
+
+        }else{
+            Long finerprintLastTime = mPreference.getTimeStamp();
+            Long fingerprintCurrentTime = Calendar.getInstance().getTimeInMillis();
+            long diff = fingerprintCurrentTime - finerprintLastTime;
+            if(diff > ERROR_FP){
+                mPreference.setTimeStamp(0);
+                MainActivity.this.activeFingerPrint();
+            }else{
+                Toast.makeText(getApplicationContext(),"Please try to make payment after 30 seconds", Toast.LENGTH_SHORT).show();
+                Handler mhandler = new Handler();
+                mhandler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        MainActivity.this.activeFingerPrint();
+                        Toast.makeText(getApplicationContext(),"Now you can make payment, Please confirmed your fingerprint", Toast.LENGTH_SHORT).show();
+                                            }
+                }, ERROR_FP);
+            }
+        }
 
         Intent intent = getIntent();
 
@@ -95,13 +139,74 @@ public class MainActivity extends AppCompatActivity {
             merchantName = customdataObject.getString("merchantName");
             TextView v = (TextView) findViewById(R.id.json_content);
             v.setText(
-                    "merchantName: " + merchantName + "\n" +
-                            "total: " + total
+                    //"merchantName: " + merchantName + "\n" +
+                    "Total: " + "$" + total
             );
+            merchantText.setText(merchantName);
+
 
         } catch (JSONException e) {
             e.printStackTrace();
         }
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    private boolean activeFingerPrint() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            keyguardManager = getSystemService(KeyguardManager.class);
+            fingerprintManager = getSystemService(FingerprintManager.class);
+            initFingerPrint();
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.USE_FINGERPRINT) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                //    ActivityCompat#requestPermissions
+                // here to request the missing permissions, and then overriding
+                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                //                                          int[] grantResults)
+                // to handle the case where the user grants the permission. See the documentation
+                // for ActivityCompat#requestPermissions for more details.
+                return true;
+            }
+            if (!fingerprintManager.hasEnrolledFingerprints()) {
+                mFingerPrintIcon.setColorFilter(ContextCompat.getColor(this, R.color.grey));
+                // This happens when no fingerprints are registered.
+         /*   Toast.makeText(this,
+                    "Go to 'Settings -> Security -> Fingerprint' and register at least one fingerprint",
+                    Toast.LENGTH_SHORT).show();*/
+                registerText.setText("Please register atleast one fingerprint");
+                registerText.setPaintFlags(registerText.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+                registerText.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        startActivityForResult(new Intent(Settings.ACTION_SECURITY_SETTINGS), 101);
+                    }
+                });
+            }
+            if (initCipher(defaultCipher)) {
+                mFingerprintUiHelper = new FingerprintUiHelper(
+                        getSystemService(FingerprintManager.class),
+                        MainActivity.this);
+                mFingerprintUiHelper.startListening(new FingerprintManager.CryptoObject(defaultCipher));
+            }
+            return true;
+        }
+        return false;
+    }
+
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
+    protected void onPause() {
+        super.onPause();
+        if (mFingerprintUiHelper != null)
+            mFingerprintUiHelper.stopListening();
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
+    protected void onStop() {
+        super.onStop();
+        if (mFingerprintUiHelper != null)
+            mFingerprintUiHelper.stopListening();
     }
 
     private void initFingerPrint() {
@@ -178,30 +283,139 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void onError(String s) {
+    public void onFingerPrintAuthSuccess(boolean status) {
+
+
+        JSONObject jsonObject = new JSONObject();
+        JSONObject rootJsonObject = new JSONObject();
+        try {
+            // use if for all attriburte and match json string and our jsonobject is same or not
+            jsonObject.put("cardholderName", "First Last");
+            jsonObject.put("cardToken", "1234567890123456");
+            jsonObject.put("tokenProviderURL", "https://www.masterpass.com/masterpass");
+            jsonObject.put("tokenExpiryDate", "12-22");
+            jsonObject.put("cryptogram", "0064F1DEAB336112C600048DE908B602005514");
+            jsonObject.put("lastFourOfFPAN", "1234");
+            jsonObject.put("trid", "50100000000");
+            jsonObject.put("typeOfCryptogram", "UCAF");
+            if(status)
+                jsonObject.put("status", "success");
+            else
+                jsonObject.put("status", "fail");
+            rootJsonObject.put("networkTokenizedCardResponse", jsonObject);
+            // rootJSonObject.toString() value is as similer as jsonString
+
+              //cardToken
+
+            Intent result = new Intent();
+            Bundle extras = new Bundle();
+            extras.putString("methodName", "bankoo");
+            // here instead of jsoString use rootJsonObject.toString()
+            extras.putString("details", rootJsonObject.toString());
+
+            result.putExtras(extras);
+            setResult(RESULT_OK, result);
+            finish();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
     }
 
-    public void onFingerPrintAuthSuccess() {
-        String jsonString = "{\n" +
-                "\t\"networkTokenizedCardResponse\": {\n" +
-                "\t\t\"cardholderName\": \"First Last\",\n" +
-                "\t\t\"cardToken\": \"1234567890123456\",\n" +
-                "\t\t\"tokenProviderURL\": \"https://www.masterpass.com/masterpass\",\n" +
-                "\t\t\"tokenExpiryDate\": \"12-22\",\n" +
-                "\t\t\"cryptogram\": \"0064F1DEAB336112C600048DE908B602005514\",\n" +
-                "\t\t\"lastFourOfFPAN\": \"1234\",\n" +
-                "\t\t\"trid\": \"50100000000\",\n" +
-                "\t\t\"typeOfCryptogram\": \"UCAF\"\n" +
-                "\t}\n" +
-                "}";
-        Intent result = new Intent();
-        Bundle extras = new Bundle();
-        extras.putString("methodName", "bankoo");
-        extras.putString("details", jsonString);
+    @Override
+    public void onAuthenticated() {
+        // Toast.makeText(getApplicationContext(),"Auth success", Toast.LENGTH_SHORT).show();
 
-        result.putExtras(extras);
-        setResult(RESULT_OK, result);
-        finish();
+        // show fingerprint green icon for 1300 seconds then call onFingerPrintAuthSuccess()
+        messageText.setText("Success");
+        messageText.setTextColor(getResources().getColor(R.color.green));
+        mFingerPrintIcon.setColorFilter(ContextCompat.getColor(this, R.color.green));
+        mPreference.setTimeStamp(0);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                MainActivity.this.onFingerPrintAuthSuccess(true);
+            }
+        }, ERROR_TIMEOUT_MILLIS);
+
+
+    }
+
+    @Override
+    public void onError(String messageContent) {
+
+
+        // update error messgae content below authorization of fingerprint textview.
+
+        messageText.setText(messageContent);
+        messageText.setTextColor(getResources().getColor(R.color.red));
+        //Toast.makeText(getApplicationContext(), messageContent, Toast.LENGTH_SHORT).show();
+        mFingerPrintIcon.setColorFilter(ContextCompat.getColor(this, R.color.red));
+        if(messageContent.toLowerCase().contains("many")){
+            mPreference.setTimeStamp(Calendar.getInstance().getTimeInMillis());
+            onFingerPrintAuthSuccess(false);
+        }
+
+
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
+    public void fingerPrintNotEnrollerd() {
+        // show light grey icon and hyperlink text view whill navigate to sectuiry settings of device.
+        // then onActivityResult check fingerprint is registered or not.
+
+
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.M)
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == 101) {
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.USE_FINGERPRINT) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                //    ActivityCompat#requestPermissions
+                // here to request the missing permissions, and then overriding
+                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                //                                          int[] grantResults)
+                // to handle the case where the user grants the permission. See the documentation
+                // for ActivityCompat#requestPermissions for more details.
+                return;
+            }
+            if (!fingerprintManager.hasEnrolledFingerprints()) {
+
+                mFingerPrintIcon.setColorFilter(ContextCompat.getColor(this, R.color.grey));
+                // This happens when no fingerprints are registered.
+             /*   Toast.makeText(this,
+                        "Go to 'Settings -> Security -> Fingerprint' and register at least one fingerprint",
+                        Toast.LENGTH_SHORT).show();*/
+                registerText.setText("Please register atleast one fingerprint");
+                registerText.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        startActivityForResult(new Intent(Settings.ACTION_SECURITY_SETTINGS), 101);
+                    }
+                });
+
+
+                return;
+
+            }else{
+                mFingerPrintIcon.setColorFilter(ContextCompat.getColor(this, R.color.black));
+                registerText.setVisibility(View.GONE);
+                initFingerPrint();
+                if (initCipher(defaultCipher)) {
+                    mFingerprintUiHelper = new FingerprintUiHelper(
+                            getSystemService(FingerprintManager.class),
+                            MainActivity.this);
+                    mFingerprintUiHelper.startListening(new FingerprintManager.CryptoObject(defaultCipher));
+                }
+            }
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    public void onFingerPrintAuthSuccess() {
     }
 }

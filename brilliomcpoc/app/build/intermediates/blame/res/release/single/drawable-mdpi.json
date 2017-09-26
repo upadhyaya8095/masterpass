@@ -4,7 +4,23 @@
         "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable-mdpi\\ic_fingerprint_green.png"
     },
     {
+        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\arrow.png",
+        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable-mdpi\\arrow.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\mastercard.png",
+        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable-mdpi\\mastercard.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\icon.png",
+        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
         "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\ic_fingerprint_grey.png",
         "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable-mdpi\\ic_fingerprint_grey.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi\\glyph.png",
+        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable-mdpi\\glyph.png"
     }
 ]

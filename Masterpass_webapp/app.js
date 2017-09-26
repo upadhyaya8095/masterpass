@@ -1,10 +1,10 @@
 const express = require('express')
 const app = express()
 
-app.get('/', function (req, res) {
+app.get('/pay', function (req, res) {
   console.log('GET / HEAD request received')
   res.set('Link', '<payment-method-manifest.json>; rel="payment-method-manifest"');
-  res.send('Hello World!')
+  res.send('Success!')
 })
 
 app.use(express.static('public'))
