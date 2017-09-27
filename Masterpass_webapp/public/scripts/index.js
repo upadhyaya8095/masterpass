@@ -43,7 +43,26 @@ $(document).ready(function () {
         $("#errresultId").hide();
         //document.getElementById('result').style.display = "none";
         let request = initPaymentRequest();
-        onBuyClicked(request);
+			if (request.canMakePayment) {
+			request.canMakePayment().then(function (result) {
+            document.getElementById('canMakePaymentResult').innerHTML = result;
+			if(result){
+			onBuyClicked(request);
+		}else{
+			$("#bookbtnId .btnmainDiv span").html("Book");
+			alert('No Payment App is installed');
+		}
+        }).catch(function (err) {
+			$("#bookbtnId .btnmainDiv span").html("Book");
+            console.log(err);
+        });
+    }
+		/*if(onCanMakePaymentButtonClicked(request)){
+			onBuyClicked(request);
+		}else{
+			alert('No Payment App is installed');
+		}*/
+        
 
         // $("#mainContentId,#modalserviceId").hide();
         // $("#responseContentId").show();
@@ -65,7 +84,7 @@ function initPaymentRequest() {
         }
     }
     /**********Changes required for hardcoded values********/
-    let pageTitle = document.title;
+    let pageTitle = document.title; // to get the dynamic value from title
     let supportedInstruments = [{
         supportedMethods: checkedValue,
         data: {
@@ -147,6 +166,7 @@ function onCanMakePaymentButtonClicked(request) {
     if (request.canMakePayment) {
         request.canMakePayment().then(function (result) {
             document.getElementById('canMakePaymentResult').innerHTML = result;
+			return result;
         }).catch(function (err) {
             console.log(err);
         });
