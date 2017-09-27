@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Capital One | MasterPass</string>
+    <string name="app_name">Capital One | Masterpass</string>
     <string name="fingerprint_description">Confirm fingerprint to continue</string>
     <string name="fingerprint_not_recognized">Fingerprint not recognized</string>
     <string name="fingerprint_not_recognized_try">Please try again</string>
