@@ -47,7 +47,6 @@ import javax.crypto.SecretKey;
 
 public class MainActivity extends AppCompatActivity implements FingerprintUiHelper.Callback {
 
-   // private static final String DEFAULT_KEY_NAME = "socalgas_key";
     private static final String DEFAULT_KEY_NAME = "mc_key";
     private static final String DIALOG_FRAGMENT_TAG = "scgFragment";
     private static final long ERROR_FP = 30000;
