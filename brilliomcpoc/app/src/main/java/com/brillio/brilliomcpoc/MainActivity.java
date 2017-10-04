@@ -23,6 +23,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -61,8 +63,10 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
     TextView messageText;
     TextView merchantText;
     TextView registerText;
-    private static final long ERROR_TIMEOUT_MILLIS = 2000;
-
+    ProgressBar mprogressbar;
+    private static final long ERROR_TIMEOUT_MILLIS = 5000;
+    private static final long PRG_TIME = 8000;
+    RelativeLayout fingerprintcontainer , progresscontainer;
 
     ImageView mFingerPrintIcon;
     private MPreference mPreference;
@@ -75,6 +79,10 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mFingerPrintIcon = (ImageView) findViewById(R.id.fingerprint_icon);
+        fingerprintcontainer = (RelativeLayout)findViewById(R.id.rl_fingerprintcontainer);
+        progresscontainer = (RelativeLayout)findViewById(R.id.rl_progressbar);
+        progresscontainer.setVisibility(View.GONE);
+        mprogressbar = (ProgressBar)findViewById(R.id.progressbar);
         mBottomSheetView =  findViewById(R.id.bottom_sheet);
         mBottomSheetBehavior = BottomSheetBehavior.from(mBottomSheetView);
         /*mBottomSheetBehavior.setHideable(false);
@@ -101,6 +109,7 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
         merchantText = (TextView) findViewById(R.id.airbnbText);
         registerText = (TextView)findViewById(R.id.registerFPText);
         mPreference = new MPreference(getApplicationContext());
+
         if(mPreference.getTimeStamp()==0) {
             activeFingerPrint();
 
@@ -118,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
                     @Override
                     public void run() {
                         MainActivity.this.activeFingerPrint();
-                        Toast.makeText(getApplicationContext(),"Now you can make payment, Please confirmed your fingerprint", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),"Please use your registered fingerprint to authenticate payment", Toast.LENGTH_SHORT).show();
                                             }
                 }, ERROR_FP);
             }
@@ -289,14 +298,22 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
         JSONObject rootJsonObject = new JSONObject();
         try {
             // use if for all attriburte and match json string and our jsonobject is same or not
-            jsonObject.put("cardholderName", "First Last");
+            /*jsonObject.put("cardholderName", "First Last");
             jsonObject.put("cardToken", "1234567890123456");
             jsonObject.put("tokenProviderURL", "https://www.masterpass.com/masterpass");
             jsonObject.put("tokenExpiryDate", "12-22");
             jsonObject.put("cryptogram", "0064F1DEAB336112C600048DE908B602005514");
             jsonObject.put("lastFourOfFPAN", "1234");
             jsonObject.put("trid", "50100000000");
-            jsonObject.put("typeOfCryptogram", "UCAF");
+            jsonObject.put("typeOfCryptogram", "UCAF");*/
+
+
+            jsonObject.put("cardNumber", "2226470000067784");
+            jsonObject.put("cardholderName", "Mastercard 2nd Series Bin");
+            jsonObject.put("cardSecurityCode", "566");
+            jsonObject.put("expiryMonth", "10");
+            jsonObject.put("expiryYear", "21");
+
             if(status)
                 jsonObject.put("status", "success");
             else
@@ -327,16 +344,24 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
 
         // show fingerprint green icon for 1300 seconds then call onFingerPrintAuthSuccess()
         messageText.setText("Success");
+        fingerprintcontainer.setVisibility(View.GONE);
+        progresscontainer.setVisibility(View.VISIBLE);
         messageText.setTextColor(getResources().getColor(R.color.green));
         mFingerPrintIcon.setColorFilter(ContextCompat.getColor(this, R.color.green));
         mPreference.setTimeStamp(0);
+        final String successtext = messageText.getText().toString();
+
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                MainActivity.this.onFingerPrintAuthSuccess(true);
+                    mprogressbar.setVisibility(View.GONE);
+                    MainActivity.this.onFingerPrintAuthSuccess(true);
+
+
             }
         }, ERROR_TIMEOUT_MILLIS);
+
 
 
     }

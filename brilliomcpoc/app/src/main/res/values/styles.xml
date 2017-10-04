@@ -15,4 +15,8 @@
         <item name="android:backgroundDimEnabled">true</item>
     </style>
 
+    <style name="RedAccent" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorAccent">#F00</item>
+    </style>
+
 </resources>
