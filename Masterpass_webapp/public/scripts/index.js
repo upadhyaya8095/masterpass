@@ -98,14 +98,14 @@ function initPaymentRequest() {
             label: 'Total',
             amount: {
                 currency: 'USD',
-                value: '154.00'
+                value: '690.00'
             }
         },
         displayItems: [{
                 label: 'Original amount',
                 amount: {
                     currency: 'USD',
-                    value: '164.00'
+                    value: '700.00'
                 },
             },
             {
@@ -115,7 +115,7 @@ function initPaymentRequest() {
                     value: '-10.00'
                 },
             },
-        ],
+        ]
     };
 
     return new PaymentRequest(supportedInstruments, details);
@@ -133,7 +133,7 @@ function onBuyClicked(request) {
                 .then(function () {
                     //document.getElementById('result').innerHTML =
                     //instrumentToJsonString(instrumentResponse);
-                    let responseObj = instrumentResponse.details.networkTokenizedCardResponse;
+                    let responseObj = instrumentResponse.details.basicCardResponse;
                     let status = responseObj.status;
                     if(status!='fail'){
                         $("#mainContentId,#modalserviceId").hide();
