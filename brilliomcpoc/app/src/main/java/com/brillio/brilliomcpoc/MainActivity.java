@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
     TextView merchantText;
     TextView registerText;
     ProgressBar mprogressbar;
-    private static final long ERROR_TIMEOUT_MILLIS = 5000;
+    private static final long ERROR_TIMEOUT_MILLIS = 2000;
     private static final long PRG_TIME = 8000;
     RelativeLayout fingerprintcontainer , progresscontainer;
 
@@ -151,8 +151,6 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
                     "Total: " + "$" + total
             );
             merchantText.setText(merchantName);
-
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -292,10 +290,9 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
     }
 
     public void onFingerPrintAuthSuccess(boolean status) {
-
-
         JSONObject jsonObject = new JSONObject();
         JSONObject rootJsonObject = new JSONObject();
+        JSONObject addressjsonObject = new JSONObject();
         try {
             // use if for all attriburte and match json string and our jsonobject is same or not
             /*jsonObject.put("cardholderName", "First Last");
@@ -307,18 +304,29 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
             jsonObject.put("trid", "50100000000");
             jsonObject.put("typeOfCryptogram", "UCAF");*/
 
-
+            addressjsonObject.put("country","");
+            addressjsonObject.put("addressLine","2200 MasterCard Blvd\n" +
+                    "O'fallon MO, 63368");
+            addressjsonObject.put("region","");
+            addressjsonObject.put("city","");
+            addressjsonObject.put("dependentLocality","");
+            addressjsonObject.put("postalCode","63368");
+            addressjsonObject.put("sortingCode","");
+            addressjsonObject.put("languageCode","");
+            addressjsonObject.put("organization","");
+            addressjsonObject.put("recipient","");
             jsonObject.put("cardNumber", "2226470000067784");
             jsonObject.put("cardholderName", "Mastercard 2nd Series Bin");
             jsonObject.put("cardSecurityCode", "566");
             jsonObject.put("expiryMonth", "10");
             jsonObject.put("expiryYear", "21");
-
+            jsonObject.put("paymentAddress",addressjsonObject);
             if(status)
                 jsonObject.put("status", "success");
             else
                 jsonObject.put("status", "fail");
-            rootJsonObject.put("networkTokenizedCardResponse", jsonObject);
+            rootJsonObject.put("basicCardResponse", jsonObject);
+            //rootJsonObject.put("networkTokenizedCardResponse", jsonObject);
             // rootJSonObject.toString() value is as similer as jsonString
 
               //cardToken
@@ -341,7 +349,6 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
     @Override
     public void onAuthenticated() {
         // Toast.makeText(getApplicationContext(),"Auth success", Toast.LENGTH_SHORT).show();
-
         // show fingerprint green icon for 1300 seconds then call onFingerPrintAuthSuccess()
         messageText.setText("Success");
         fingerprintcontainer.setVisibility(View.GONE);
@@ -357,13 +364,8 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
             public void run() {
                     mprogressbar.setVisibility(View.GONE);
                     MainActivity.this.onFingerPrintAuthSuccess(true);
-
-
             }
         }, ERROR_TIMEOUT_MILLIS);
-
-
-
     }
 
     @Override
@@ -389,8 +391,6 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
     public void fingerPrintNotEnrollerd() {
         // show light grey icon and hyperlink text view whill navigate to sectuiry settings of device.
         // then onActivityResult check fingerprint is registered or not.
-
-
     }
 
     @RequiresApi(api = Build.VERSION_CODES.M)
@@ -421,7 +421,6 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
                         startActivityForResult(new Intent(Settings.ACTION_SECURITY_SETTINGS), 101);
                     }
                 });
-
 
                 return;
 
