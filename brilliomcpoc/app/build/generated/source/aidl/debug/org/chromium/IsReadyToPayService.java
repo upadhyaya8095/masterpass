@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\aidl\\org\\chromium\\IsReadyToPayService.aidl
+ * Original file: C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\aidl\\org\\chromium\\IsReadyToPayService.aidl
  */
 package org.chromium;
 public interface IsReadyToPayService extends android.os.IInterface

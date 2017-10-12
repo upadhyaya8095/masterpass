@@ -133,7 +133,7 @@ function onBuyClicked(request) {
                 .then(function () {
                     //document.getElementById('result').innerHTML =
                     //instrumentToJsonString(instrumentResponse);
-                    let responseObj = instrumentResponse.details.basicCardResponse;
+                    let responseObj = instrumentResponse.details.networkTokenizedCardResponse;
                     let status = responseObj.status;
                     if(status!='fail'){
                         $("#mainContentId,#modalserviceId").hide();

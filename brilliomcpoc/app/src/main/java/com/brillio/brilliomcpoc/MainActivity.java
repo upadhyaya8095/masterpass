@@ -85,26 +85,6 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
         mprogressbar = (ProgressBar)findViewById(R.id.progressbar);
         mBottomSheetView =  findViewById(R.id.bottom_sheet);
         mBottomSheetBehavior = BottomSheetBehavior.from(mBottomSheetView);
-        /*mBottomSheetBehavior.setHideable(false);
-        mBottomSheetBehavior.setPeekHeight(490);
-        mBottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
-            @Override
-            public void onStateChanged(View bottomSheet, int newState) {
-                if (newState == BottomSheetBehavior.STATE_EXPANDED) {
-
-                }
-                else if (newState == BottomSheetBehavior.STATE_HIDDEN) {
-                    mBottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-                }
-                else if (newState == BottomSheetBehavior.STATE_COLLAPSED) {
-
-                }
-            }
-
-            @Override
-            public void onSlide(View bottomSheet, float slideOffset) {
-            }
-        });*/
         messageText = (TextView) findViewById(R.id.fingerprint_status);
         merchantText = (TextView) findViewById(R.id.airbnbText);
         registerText = (TextView)findViewById(R.id.registerFPText);
@@ -292,19 +272,19 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
     public void onFingerPrintAuthSuccess(boolean status) {
         JSONObject jsonObject = new JSONObject();
         JSONObject rootJsonObject = new JSONObject();
-        JSONObject addressjsonObject = new JSONObject();
+        //JSONObject addressjsonObject = new JSONObject();
         try {
             // use if for all attriburte and match json string and our jsonobject is same or not
-            /*jsonObject.put("cardholderName", "First Last");
+            jsonObject.put("cardholderName", "First Last");
             jsonObject.put("cardToken", "1234567890123456");
             jsonObject.put("tokenProviderURL", "https://www.masterpass.com/masterpass");
             jsonObject.put("tokenExpiryDate", "12-22");
             jsonObject.put("cryptogram", "0064F1DEAB336112C600048DE908B602005514");
             jsonObject.put("lastFourOfFPAN", "1234");
             jsonObject.put("trid", "50100000000");
-            jsonObject.put("typeOfCryptogram", "UCAF");*/
+            jsonObject.put("typeOfCryptogram", "UCAF");
 
-            addressjsonObject.put("country","");
+            /*addressjsonObject.put("country","");
             addressjsonObject.put("addressLine","2200 MasterCard Blvd\n" +
                     "O'fallon MO, 63368");
             addressjsonObject.put("region","");
@@ -320,20 +300,20 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
             jsonObject.put("cardSecurityCode", "566");
             jsonObject.put("expiryMonth", "10");
             jsonObject.put("expiryYear", "21");
-            jsonObject.put("paymentAddress",addressjsonObject);
+            jsonObject.put("paymentAddress",addressjsonObject);*/
             if(status)
                 jsonObject.put("status", "success");
             else
                 jsonObject.put("status", "fail");
-            rootJsonObject.put("basicCardResponse", jsonObject);
-            //rootJsonObject.put("networkTokenizedCardResponse", jsonObject);
-            // rootJSonObject.toString() value is as similer as jsonString
+            //rootJsonObject.put("basicCardResponse", jsonObject);
+            rootJsonObject.put("networkTokenizedCardResponse", jsonObject);
+            // rootJSonObject.toString() value is as similar as jsonString
 
               //cardToken
 
             Intent result = new Intent();
             Bundle extras = new Bundle();
-            extras.putString("methodName", "bankoo");
+            extras.putString("methodName", "masterpass");
             // here instead of jsoString use rootJsonObject.toString()
             extras.putString("details", rootJsonObject.toString());
 

@@ -1,30 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.fingerprint
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:5:5-7:35
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:5:5-7:35
 	android:required
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:6:9-52
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:6:9-52
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:8:5-74
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:8:5-74
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:8:22-71
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:8:22-71
 application
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:10:5-44:19
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:10:5-44:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Upadhyp4\.android\build-cache\b69557830a93cd9cfd79bf553b513c9814bec789\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\31b70e32da8f0ada7751d301550af90fa232090d\output\AndroidManifest.xml:29:5-20
@@ -38,69 +38,69 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Upadhyp4\.andr
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Upadhyp4\.android\build-cache\8856644ec32944365113ad4fa9a34e6ef5299a02\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Upadhyp4\.android\build-cache\f282c83f033e257d24075113f753eaf2e2b833aa\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:15:9-35
 	android:roundIcon
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:14:9-48
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:14:9-48
 	android:allowBackup
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:16:9-40
 service#com.brillio.brilliomcpoc.IsReadyToPayServiceImpl
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:17:9-24:19
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:17:9-24:19
 	android:enabled
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:19:13-35
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:19:13-35
 	android:exported
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:18:13-52
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:18:13-52
 intent-filter#org.chromium.intent.action.IS_READY_TO_PAY
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:21:13-23:29
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:21:13-23:29
 action#org.chromium.intent.action.IS_READY_TO_PAY
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:22:17-85
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:22:17-85
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:22:25-82
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:22:25-82
 activity#com.brillio.brilliomcpoc.MainActivity
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:25:9-43:20
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:25:9-43:20
 	android:screenOrientation
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:29:13-49
 	android:exported
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:27:13-36
 	android:theme
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:26:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+org.chromium.intent.action.PAY
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:30:13-35:29
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:30:13-35:29
 action#org.chromium.intent.action.PAY
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:31:17-73
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:31:17-73
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:31:25-70
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:31:25-70
 action#android.intent.action.MAIN
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:34:27-74
 meta-data#org.chromium.default_payment_method_name
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:37:13-39:81
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:37:13-39:81
 	android:value
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:39:17-78
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:39:17-78
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:38:17-72
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:38:17-72
 meta-data#org.chromium.payment_method_names
-ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:40:13-42:58
+ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:40:13-42:58
 	android:resource
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:42:17-55
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:42:17-55
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml:41:17-65
+		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:41:17-65
 uses-sdk
-INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Upadhyp4\.android\build-cache\b69557830a93cd9cfd79bf553b513c9814bec789\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\31b70e32da8f0ada7751d301550af90fa232090d\output\AndroidManifest.xml:21:5-23:78
@@ -117,11 +117,11 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Upadhyp4\.andro
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\android_sample\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\31b70e32da8f0ada7751d301550af90fa232090d\output\AndroidManifest.xml:25:5-27:34

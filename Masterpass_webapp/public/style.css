@@ -1103,3 +1103,8 @@ hr {
 .text-right {
     text-align: right;
 }
+
+.err_mainDiv{
+	background-color:transparent;
+	margin:1rem 1rem;
+}

@@ -1,198 +1,206 @@
 [
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bitmap.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\bitmap.png"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\arrow.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\arrow.png"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\straightline.jpg",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\straightline.jpg"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\card.jpg",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\card.jpg"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
         "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mastercard_logo_design.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\mastercard_logo_design.png"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_fingerprint_black_24dp.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\ic_fingerprint_black_24dp.png"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\circular_progress_bar.xml",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\circular_progress_bar.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\hexagon.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\hexagon.png"
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\glyph.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\glyph.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\ic_fingerprint_black_24dp.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\ic_fingerprint_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
         "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\glyph.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\glyph.png"
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\icon.png"
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mastercard.png",
-        "source": "C:\\Prasad\\mastercardpoc\\android_sample\\brilliomcpoc\\app\\src\\main\\res\\drawable\\mastercard.png"
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\bitmap.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\bitmap.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\card.jpg",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\card.jpg"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\circle_shape.xml",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\straightline.jpg",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\straightline.jpg"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mastercard_logo_design.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\mastercard_logo_design.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\mastercard.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\mastercard.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\icon.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\arrow.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\arrow.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\hexagon.png",
+        "source": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\src\\main\\res\\drawable\\hexagon.png"
+    },
+    {
+        "merged": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Upadhyp4\\.android\\build-cache\\31b70e32da8f0ada7751d301550af90fa232090d\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     }
 ]
