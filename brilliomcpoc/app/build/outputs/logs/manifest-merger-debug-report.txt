@@ -1,141 +1,141 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.fingerprint
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:5:5-7:35
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:5:5-7:35
 	android:required
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:7:9-32
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:7:9-32
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:6:9-52
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:6:9-52
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:8:5-74
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:8:5-74
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:8:22-71
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:8:22-71
 application
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:10:5-44:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Upadhyp4\.android\build-cache\b69557830a93cd9cfd79bf553b513c9814bec789\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\31b70e32da8f0ada7751d301550af90fa232090d\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Upadhyp4\.android\build-cache\41587431c415daab9e5302eb67f351ff70c2b535\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Upadhyp4\.android\build-cache\4ea83d032f33eb19abccd2209a3c2851aa76a929\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Upadhyp4\.android\build-cache\88a714e3794dd8e818e8e4ecc94f922564828c9b\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Upadhyp4\.android\build-cache\a4630eb80b800258d2d389534eda091c98a208e1\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Upadhyp4\.android\build-cache\3ca02658702fe5705d7b91ad6e07a519b8df9cdb\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Upadhyp4\.android\build-cache\4f53a33a85f3d1d9c973829ed9107b2e6ee53161\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Upadhyp4\.android\build-cache\f2ca071f2ebb8b34322703505240e9867323f3e3\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Upadhyp4\.android\build-cache\8856644ec32944365113ad4fa9a34e6ef5299a02\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Upadhyp4\.android\build-cache\f282c83f033e257d24075113f753eaf2e2b833aa\output\AndroidManifest.xml:29:5-20
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:10:5-44:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Prasad Upadhyaya\.android\build-cache\4c7faf53a4d6a00b97fa4a82176108dc4eb1c8e4\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3b04a6c24b2ae57377eb57d1e0e6143c232e15e0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\5cd2d796f3a4d7a392f1c8c9bb8888bf26386062\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\fd97a9b42777786201c17908f280a9aaa004cf2b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\cbcacd1db014a84c1b8e8a0adc519546721e5b95\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\90ab03f32fd1840926133f24886c894ab6cb8bbf\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\48a28f57b095bd91015c7a5f7df92c3e89a64b16\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\e7146d6c8591f6093aee2533f28a2ba715e87a24\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\d875ddd2597c59766244ca94f305c97d3157f71b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\bd29a14eb1576de0f78f1b9ec4506681136ba77c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\f53435d905b7833c6eeab08e9493c32d7c2ac30f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\eab3f4d7760f74227e81930f17b8ffe742aaf7b4\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:15:9-35
 	android:roundIcon
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:14:9-48
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:14:9-48
 	android:allowBackup
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:12:9-43
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:16:9-40
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:16:9-40
 service#com.brillio.brilliomcpoc.IsReadyToPayServiceImpl
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:17:9-24:19
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:17:9-24:19
 	android:enabled
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:19:13-35
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:19:13-35
 	android:exported
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:18:13-52
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:18:13-52
 intent-filter#org.chromium.intent.action.IS_READY_TO_PAY
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:21:13-23:29
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:21:13-23:29
 action#org.chromium.intent.action.IS_READY_TO_PAY
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:22:17-85
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:22:17-85
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:22:25-82
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:22:25-82
 activity#com.brillio.brilliomcpoc.MainActivity
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:25:9-43:20
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:25:9-43:20
 	android:screenOrientation
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:29:13-49
 	android:exported
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:27:13-36
 	android:theme
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:28:13-56
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:28:13-56
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:26:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+org.chromium.intent.action.PAY
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:30:13-35:29
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:30:13-35:29
 action#org.chromium.intent.action.PAY
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:31:17-73
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:31:17-73
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:31:25-70
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:31:25-70
 action#android.intent.action.MAIN
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:34:27-74
 meta-data#org.chromium.default_payment_method_name
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:37:13-39:81
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:37:13-39:81
 	android:value
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:39:17-78
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:39:17-78
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:38:17-72
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:38:17-72
 meta-data#org.chromium.payment_method_names
-ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:40:13-42:58
+ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:40:13-42:58
 	android:resource
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:42:17-55
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:42:17-55
 	android:name
-		ADDED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml:41:17-65
+		ADDED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml:41:17-65
 uses-sdk
-INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Upadhyp4\.android\build-cache\b69557830a93cd9cfd79bf553b513c9814bec789\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\31b70e32da8f0ada7751d301550af90fa232090d\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Upadhyp4\.android\build-cache\41587431c415daab9e5302eb67f351ff70c2b535\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Upadhyp4\.android\build-cache\4ea83d032f33eb19abccd2209a3c2851aa76a929\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\914d6fd98477d92411089410dc030e512dfa847e\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Upadhyp4\.android\build-cache\88a714e3794dd8e818e8e4ecc94f922564828c9b\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Upadhyp4\.android\build-cache\a4630eb80b800258d2d389534eda091c98a208e1\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Upadhyp4\.android\build-cache\3ca02658702fe5705d7b91ad6e07a519b8df9cdb\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Upadhyp4\.android\build-cache\4f53a33a85f3d1d9c973829ed9107b2e6ee53161\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Upadhyp4\.android\build-cache\f2ca071f2ebb8b34322703505240e9867323f3e3\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Upadhyp4\.android\build-cache\8856644ec32944365113ad4fa9a34e6ef5299a02\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Upadhyp4\.android\build-cache\f282c83f033e257d24075113f753eaf2e2b833aa\output\AndroidManifest.xml:21:5-23:58
+INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Prasad Upadhyaya\.android\build-cache\4c7faf53a4d6a00b97fa4a82176108dc4eb1c8e4\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3b04a6c24b2ae57377eb57d1e0e6143c232e15e0\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\5cd2d796f3a4d7a392f1c8c9bb8888bf26386062\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\fd97a9b42777786201c17908f280a9aaa004cf2b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\cbcacd1db014a84c1b8e8a0adc519546721e5b95\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3cc2951186c86005df912cfb72c51d89b628d309\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\90ab03f32fd1840926133f24886c894ab6cb8bbf\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\48a28f57b095bd91015c7a5f7df92c3e89a64b16\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\e7146d6c8591f6093aee2533f28a2ba715e87a24\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\d875ddd2597c59766244ca94f305c97d3157f71b\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\bd29a14eb1576de0f78f1b9ec4506681136ba77c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\f53435d905b7833c6eeab08e9493c32d7c2ac30f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\eab3f4d7760f74227e81930f17b8ffe742aaf7b4\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3b04a6c24b2ae57377eb57d1e0e6143c232e15e0\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Prasad\mastercardpoc\mc_12102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Brillio\MasterCard_Repo\mc_13102017\brilliomcpoc\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\31b70e32da8f0ada7751d301550af90fa232090d\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Upadhyp4\.android\build-cache\41587431c415daab9e5302eb67f351ff70c2b535\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Upadhyp4\.android\build-cache\4ea83d032f33eb19abccd2209a3c2851aa76a929\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Upadhyp4\.android\build-cache\914d6fd98477d92411089410dc030e512dfa847e\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Upadhyp4\.android\build-cache\88a714e3794dd8e818e8e4ecc94f922564828c9b\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Upadhyp4\.android\build-cache\a4630eb80b800258d2d389534eda091c98a208e1\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Upadhyp4\.android\build-cache\3ca02658702fe5705d7b91ad6e07a519b8df9cdb\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Upadhyp4\.android\build-cache\4f53a33a85f3d1d9c973829ed9107b2e6ee53161\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Upadhyp4\.android\build-cache\f2ca071f2ebb8b34322703505240e9867323f3e3\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Upadhyp4\.android\build-cache\8856644ec32944365113ad4fa9a34e6ef5299a02\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Upadhyp4\.android\build-cache\f282c83f033e257d24075113f753eaf2e2b833aa\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3b04a6c24b2ae57377eb57d1e0e6143c232e15e0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\5cd2d796f3a4d7a392f1c8c9bb8888bf26386062\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\fd97a9b42777786201c17908f280a9aaa004cf2b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\cbcacd1db014a84c1b8e8a0adc519546721e5b95\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3cc2951186c86005df912cfb72c51d89b628d309\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\90ab03f32fd1840926133f24886c894ab6cb8bbf\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\48a28f57b095bd91015c7a5f7df92c3e89a64b16\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\e7146d6c8591f6093aee2533f28a2ba715e87a24\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\d875ddd2597c59766244ca94f305c97d3157f71b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\bd29a14eb1576de0f78f1b9ec4506681136ba77c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\f53435d905b7833c6eeab08e9493c32d7c2ac30f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\eab3f4d7760f74227e81930f17b8ffe742aaf7b4\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3b04a6c24b2ae57377eb57d1e0e6143c232e15e0\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Upadhyp4\.android\build-cache\00cbf196f6bfb0cb9cede9bedefce41b4b2f1175\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Prasad Upadhyaya\.android\build-cache\3b04a6c24b2ae57377eb57d1e0e6143c232e15e0\output\AndroidManifest.xml:26:9-47

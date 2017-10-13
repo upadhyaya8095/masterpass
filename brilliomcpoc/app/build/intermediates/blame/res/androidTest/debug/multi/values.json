@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Prasad\\mastercardpoc\\mc_12102017\\brilliomcpoc\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "F:\\Brillio\\MasterCard_Repo\\mc_13102017\\brilliomcpoc\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Upadhyp4\\.android\\build-cache\\55145c934caedeb19c8f0d38839ec98683fb61fa\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Prasad Upadhyaya\\.android\\build-cache\\6f9b0e8271aefb3812d0986ab86a5f13b13a3373\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
