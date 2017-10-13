@@ -279,7 +279,7 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
             jsonObject.put("cardToken", "1234567890123456");
             jsonObject.put("tokenProviderURL", "https://www.masterpass.com/masterpass");
             jsonObject.put("tokenExpiryDate", "12-22");
-            jsonObject.put("cryptogram", "0064F1DEAB336112C600048DE908B602005514");
+            jsonObject.put("cryptogram", "APrpkq1YI+d1AALp29TWGgADFA==");
             jsonObject.put("lastFourOfFPAN", "1234");
             jsonObject.put("trid", "50100000000");
             jsonObject.put("typeOfCryptogram", "UCAF");
