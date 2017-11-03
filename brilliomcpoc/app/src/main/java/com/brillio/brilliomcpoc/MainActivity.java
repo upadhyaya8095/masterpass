@@ -28,6 +28,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -273,6 +274,10 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
         JSONObject jsonObject = new JSONObject();
         JSONObject rootJsonObject = new JSONObject();
         JSONObject addressjsonObject = new JSONObject();
+
+        JSONArray  jsonArray  = new JSONArray();
+
+
         try {
             // use if for all attriburte and match json string and our jsonobject is same or not
            /* jsonObject.put("cardholderName", "First Last");
@@ -285,8 +290,9 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
             jsonObject.put("typeOfCryptogram", "UCAF");*/
 
             addressjsonObject.put("country","");
-            addressjsonObject.put("addressLine","2200 MasterCard Blvd\n" +
-                    "O'fallon MO, 63368");
+          /*  addressjsonObject.put("addressLine","2200 MasterCard Blvd\n" +
+                    "O'fallon MO, 63368");*/
+            addressjsonObject.put("addressLine", jsonArray);
             addressjsonObject.put("region","");
             addressjsonObject.put("city","");
             addressjsonObject.put("dependentLocality","");
@@ -295,6 +301,7 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
             addressjsonObject.put("languageCode","");
             addressjsonObject.put("organization","");
             addressjsonObject.put("recipient","");
+            addressjsonObject.put("phone","");
 
             jsonObject.put("cardholderName", "Mastercard 2nd Series Bin");
             jsonObject.put("cardNumber", "2226470000067784");
