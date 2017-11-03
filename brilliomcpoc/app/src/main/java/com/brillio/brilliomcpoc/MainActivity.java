@@ -272,19 +272,19 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
     public void onFingerPrintAuthSuccess(boolean status) {
         JSONObject jsonObject = new JSONObject();
         JSONObject rootJsonObject = new JSONObject();
-        //JSONObject addressjsonObject = new JSONObject();
+        JSONObject addressjsonObject = new JSONObject();
         try {
             // use if for all attriburte and match json string and our jsonobject is same or not
-            jsonObject.put("cardholderName", "First Last");
+           /* jsonObject.put("cardholderName", "First Last");
             jsonObject.put("cardToken", "1234567890123456");
             jsonObject.put("tokenProviderURL", "https://www.masterpass.com/masterpass");
             jsonObject.put("tokenExpiryDate", "12-22");
             jsonObject.put("cryptogram", "APrpkq1YI+d1AALp29TWGgADFA==");
             jsonObject.put("lastFourOfFPAN", "1234");
             jsonObject.put("trid", "50100000000");
-            jsonObject.put("typeOfCryptogram", "UCAF");
+            jsonObject.put("typeOfCryptogram", "UCAF");*/
 
-            /*addressjsonObject.put("country","");
+            addressjsonObject.put("country","");
             addressjsonObject.put("addressLine","2200 MasterCard Blvd\n" +
                     "O'fallon MO, 63368");
             addressjsonObject.put("region","");
@@ -295,18 +295,19 @@ public class MainActivity extends AppCompatActivity implements FingerprintUiHelp
             addressjsonObject.put("languageCode","");
             addressjsonObject.put("organization","");
             addressjsonObject.put("recipient","");
-            jsonObject.put("cardNumber", "2226470000067784");
+
             jsonObject.put("cardholderName", "Mastercard 2nd Series Bin");
-            jsonObject.put("cardSecurityCode", "566");
+            jsonObject.put("cardNumber", "2226470000067784");
             jsonObject.put("expiryMonth", "10");
-            jsonObject.put("expiryYear", "21");
-            jsonObject.put("paymentAddress",addressjsonObject);*/
+            jsonObject.put("expiryYear", "2021");
+            jsonObject.put("cardSecurityCode", "566");
+            jsonObject.put("billingAddress",addressjsonObject);
             if(status)
                 jsonObject.put("status", "success");
             else
                 jsonObject.put("status", "fail");
-            //rootJsonObject.put("basicCardResponse", jsonObject);
-            rootJsonObject.put("networkTokenizedCardResponse", jsonObject);
+            rootJsonObject.put("basicCardResponse", jsonObject);
+            //rootJsonObject.put("networkTokenizedCardResponse", jsonObject);
             // rootJSonObject.toString() value is as similar as jsonString
 
               //cardToken
